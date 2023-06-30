@@ -2,6 +2,7 @@ import { mount } from "marketing/MarketingApp";
 import React, { useRef, useEffect } from "react";
 
 //name of a component can be optional
+//makes the container independent from library/framework
 export default () => {
   const ref = useRef(null);
   useEffect(() => {
